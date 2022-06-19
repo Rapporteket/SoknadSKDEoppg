@@ -1,7 +1,7 @@
 ---
 title: 'Veiledning'
 author: 'Intervjukomiteen, SKDE'
-date: '19. juni 2019'
+date: '`r format(Sys.time(), "%d. %B %Y")`'
 output: 
   html_document: 
     keep_md: yes
@@ -53,8 +53,7 @@ Utgangspunket for de neste stegene er bruk av det innebygde datasettet "mtcars".
 1. Oppgave B: fyll "Sammendrag" med en tabell som viser `summary` av valgt variabel ved å legge til kode i inst/shinyApps/app1/server.R
 
 Tips til oppgave B:
-
-```r
+```{r eval=FALSE}
 ## Sammendrag
 output$distSummary <- renderTable({
   as.data.frame(sapply(regData, summary))[input$var]

@@ -1,0 +1,24 @@
+Package: SoknadNSMoppg
+Type: Package
+Title: Oppgave
+Version: 0.2.0
+Author: Lena R. Olsen
+Maintainer: Lena R. Olsen <Lena.Ringstad.Olsen@helse-nord.no>
+Description: Oppgaver i forbindelse med intervju SKDE
+Depends:
+  R (>= 3.4.0),
+  rapbase (>= 1.8.0)
+Imports:
+  DT,
+  kableExtra,
+  magrittr,
+  rapbase,
+  rmarkdown,
+  markdown,
+  shiny
+Remotes:
+  Rapporteket/rapbase
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
