@@ -5,7 +5,7 @@ ui <- tagList(
     tabPanel("Veiledning",
       mainPanel(width = 12,
         #htmlOutput("veiledning", inline = TRUE)
-        includeMarkdown('veiledning.md')
+        includeMarkdown(system.file("veiledning.md", package = "SoknadSKDEoppg"))
       )
     ),
     tabPanel("Figur og tabell"
