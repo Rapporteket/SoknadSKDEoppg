@@ -12,12 +12,9 @@ Imports:
   DT,
   kableExtra,
   magrittr,
-  rapbase,
   rmarkdown,
   markdown,
   shiny
-Remotes:
-  Rapporteket/rapbase
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
