@@ -11,7 +11,7 @@ server <- function(input, output, session) {
   htmlRenderRmd <- function(srcFile, params = list()) {
     # set param needed for report meta processing
     # params <- list(tableFormat="html")
-    system.file(srcFile, package="SoknadNSMoppg") %>%
+    system.file(srcFile, package="SoknadSKDEoppg") %>%
       knitr::knit() %>%
       markdown::markdownToHTML(.,
                                options = c('fragment_only',
