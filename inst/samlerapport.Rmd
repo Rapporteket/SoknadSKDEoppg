@@ -41,5 +41,5 @@ kable(dt) %>%
 Vi har sett den før, men tåler å få figuren på nytt:
 
 ```{r eksFig, echo=FALSE}
-f <- rapRegTemplate::makeHist(df = mtcars, var = params$var, bins = params$bins, makeTable = FALSE)
+f <- SoknadSKDEoppg::makeHist(df = mtcars, var = params$var, bins = params$bins, makeTable = FALSE)
 ```

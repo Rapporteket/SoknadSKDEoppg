@@ -13,12 +13,12 @@ output:
 # Lag en resultattjeneste i R-Shiny
 En resultattjeneste er en interaktiv løsning hvor man kan se på/leke med resultater for sine data. Det er utarbeidet et templat (en mal) i Shiny som man tar utgangspunkt i for å lage en interaktiv resultattjeneste.
 
-Beskrivelsen under er ikke nødvendigvis utfyllende og forutsetter kjennskap til RStudio. Det er også en fordel med litt kjennskap til bruk av git og GitHub. Som en ekstra støtte anbefales [R packages](http://r-pkgs.had.co.nz/) av Hadley Wickham og spesielt [beskrivelsen av git og GitHub](http://r-pkgs.had.co.nz/git.html#git-rstudio).
+Beskrivelsen under er ikke nødvendigvis utfyllende og forutsetter kjennskap til RStudio, og at du har både R og RStudio installert. Det er også en fordel med litt kjennskap til bruk av git og GitHub. Som en ekstra støtte anbefales [R packages](http://r-pkgs.had.co.nz/) av Hadley Wickham og spesielt [beskrivelsen av git og GitHub](http://r-pkgs.had.co.nz/git.html#git-rstudio).
 
 
 ## Prøv templatet
-1. Installér pakken [SoknadNSMoppg](https://github.com/Rapporteket/SoknadSKDEoppg) i RStudio (`remotes::install_github("Rapporteket/SoknadSKDEoppg")`)
-1. Hent ned prosjektet [SoknadNSMoppg](https://github.com/Rapporteket/SoknadSKDEoppg) til RStudio (for mer info, se [her](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects))
+1. Installér pakken [SoknadSKDEoppg](https://github.com/Rapporteket/SoknadSKDEoppg) i RStudio (`remotes::install_github("Rapporteket/SoknadSKDEoppg")`). Dette forutsetter at R-pakken remotes er installert (`install.packages("remotes")`).
+1. Hent ned prosjektet [SoknadSKDEoppg](https://github.com/Rapporteket/SoknadSKDEoppg) til RStudio (for mer info, se [her](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects))
 (Hvis du ikke klarer å sette opp en direkte kobling til github kan du  kopiere filene til din datamaskin, pakke de ut og installere pakken.)
 1. Åpne fila inst/shinyApps/app1/ui.R og start Shiny-applikasjonen ("Run App")
 1. Navigér i applikasjonen for å se på struktur og farger (innhold mangler)
@@ -69,6 +69,6 @@ Sykehusnavn er tilfeldig fordelt og data representerer ikke virkelige enkeltpers
 
 
 1. Presenter kort kvalitetsindikatoren reinnleggelse.  Dvs. lag en interaktiv visualisering av den. Hvis du ikke får til å lage en interaktiv presentasjon, lager du bare en figur som legges inn i presentasjonen.
-Reinnleggelse representeres av variabelen ReAdmitted hvor 1=ja og 2=nei. Du står helt fritt i hvilken type figur(er) du vil benytte til visualisering/presentasjon. Se gjerne www.kvalitetsregistre.no for å finne relevante eksempler.
+Reinnleggelse representeres av variabelen ReAdmitted hvor 1=ja og 2=nei. Du står helt fritt i hvilken type figur(er) du vil benytte til visualisering/presentasjon. Se gjerne https://www.skde.no/kvalitetsregistre/alle/sykehus for å finne relevante eksempler.
 
 
