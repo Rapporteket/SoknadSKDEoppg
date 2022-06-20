@@ -1,16 +1,7 @@
 library(shiny)
-library(rapbase)
-
-addResourcePath('rap', system.file('www', package='rapbase'))
-regTitle = "Oppgave"
 
 ui <- tagList(
-  navbarPage(
-    title = div(img(src="rap/logo.svg", alt="Rapporteket", height="26px"),
-                regTitle),
-    windowTitle = regTitle,
-    theme = "rap/bootstrap.css",
-
+  navbarPage("Oppgave",
     tabPanel("Veiledning",
       mainPanel(width = 12,
         #htmlOutput("veiledning", inline = TRUE)
