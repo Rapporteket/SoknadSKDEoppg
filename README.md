@@ -17,7 +17,7 @@ Beskrivelsen under er ikke nødvendigvis utfyllende og forutsetter kjennskap til
 
 
 ## Prøv templatet
-1. Installér pakken [SoknadNSMoppg](https://github.com/Rapporteket/SoknadSKDEoppg) i RStudio (`devtools::install_github("Rapporteket/SoknadSKDEoppg")`)
+1. Installér pakken [SoknadNSMoppg](https://github.com/Rapporteket/SoknadSKDEoppg) i RStudio (`remotes::install_github("Rapporteket/SoknadSKDEoppg")`)
 1. Hent ned prosjektet [SoknadNSMoppg](https://github.com/Rapporteket/SoknadSKDEoppg) til RStudio (for mer info, se [her](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects))
 (Hvis du ikke klarer å sette opp en direkte kobling til github kan du  kopiere filene til din datamaskin, pakke de ut og installere pakken.)
 1. Åpne fila inst/shinyApps/app1/ui.R og start Shiny-applikasjonen ("Run App")
@@ -69,8 +69,6 @@ Se vedlagte datasett Eksempeldata. (Datasettet kan lastes ved å benytte kommand
 Sykehusnavn er tilfeldig fordelt og data representerer ikke virkelige enkeltpersoner.
 
 
-1. Hva ville du ønske å vite om hver variabel for å kunne bruke de i en rapport/grafisk fremstilling? 
-1. Lag et metadatasett som beskriver alle variable og deres egenskaper. (Dikt opp der du ikke har mulighet for å vite alle detaljer du ønsker å vite om variabelen.)
 1. Presenter kort kvalitetsindikatoren reinnleggelse.  Dvs. lag en interaktiv visualisering av den. Hvis du ikke får til å lage en interaktiv presentasjon, lager du bare en figur som legges inn i presentasjonen.
 Reinnleggelse representeres av variabelen ReAdmitted hvor 1=ja og 2=nei. Du står helt fritt i hvilken type figur(er) du vil benytte til visualisering/presentasjon. Se gjerne www.kvalitetsregistre.no for å finne relevante eksempler.
 

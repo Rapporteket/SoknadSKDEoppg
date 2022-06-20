@@ -17,7 +17,7 @@ Beskrivelsen under er ikke nødvendigvis utfyllende og forutsetter kjennskap til
 
 
 ## Prøv templatet
-1. Installér pakken [SoknadNSMoppg](https://github.com/Rapporteket/SoknadSKDEoppg) i RStudio (`devtools::install_github("Rapporteket/SoknadSKDEoppg")`)
+1. Installér pakken [SoknadNSMoppg](https://github.com/Rapporteket/SoknadSKDEoppg) i RStudio (`remotes::install_github("Rapporteket/SoknadSKDEoppg")`)
 1. Hent ned prosjektet [SoknadNSMoppg](https://github.com/Rapporteket/SoknadSKDEoppg) til RStudio (for mer info, se [her](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects))
 (Hvis du ikke klarer å sette opp en direkte kobling til github kan du  kopiere filene til din datamaskin, pakke de ut og installere pakken.)
 1. Åpne fila inst/shinyApps/app1/ui.R og start Shiny-applikasjonen ("Run App")
