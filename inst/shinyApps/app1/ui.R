@@ -1,7 +1,7 @@
 library(shiny)
 library(rapbase)
 
-addResourcePath('rap', system.file('shinyApps/app1/www', package='SoknadSKDEoppg'))
+addResourcePath('rap', system.file('www', package='rapbase'))
 regTitle = "Oppgave"
 
 ui <- tagList(
