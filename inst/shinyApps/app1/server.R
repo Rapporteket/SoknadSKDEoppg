@@ -54,7 +54,7 @@ server <- function(input, output, session) {
     },
     content = function(file) {
       srcFile <- normalizePath(system.file("samlerapport.Rmd",
-                                           package = "SoknadNSMoppgave"))
+                                           package = "SoknadSKDEoppg"))
       tmpFile <- "tmpSamlerapport.Rmd"
       owd <- setwd(tempdir())
       on.exit(setwd(owd))
