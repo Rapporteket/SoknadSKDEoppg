@@ -1,7 +1,7 @@
 ---
 title: 'Veiledning'
 author: 'Intervjukomiteen, SKDE'
-date: '20. juni 2022'
+date: '21. juni 2022'
 output: 
   html_document: 
     keep_md: yes
@@ -63,7 +63,7 @@ output$distSummary <- renderTable({
 
 ## Hovedoppgave
 
-Nå er du ferdig med oppvarminga og klar for den egentlige oppgaven. Til denne oppgaven kan du velge å lage en egen Shiny-app for å løse oppgaven, eller du kan legge til faner i den du har startet på. Til del 1. og 2. kan du benytte markdown-dokumentet "Samlerapport" som mal/utgangspunkt, du kan lage en egen Beamer-presentasjon (eller PowerPoint) eller du kan legge presentasjonen direkte inn på ei (eller flere) Shiny-sider.
+Nå er du ferdig med oppvarminga og klar for den egentlige oppgaven. Til denne oppgaven kan du velge å lage en egen Shiny-app for å løse oppgaven, eller du kan legge til faner i den du har startet på. Ev. kan du benytte markdown-dokumentet "Samlerapport" som mal/utgangspunkt, du kan lage en egen Beamer-presentasjon (eller PowerPoint) eller du kan legge presentasjonen direkte inn på ei (eller flere) Shiny-sider.
 
 Se vedlagte datasett Eksempeldata. (Datasettet kan lastes ved å benytte kommandoen  `data('EksempelData')`). Samme datasett finnes også som csv-fil i katalogen /data, dvs. `/data/EksempelData.csv`.
 Sykehusnavn er tilfeldig fordelt og data representerer ikke virkelige enkeltpersoner.
